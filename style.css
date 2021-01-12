@@ -1,0 +1,85 @@
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+#students {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#students td, #students th {
+    padding: 15px;
+}
+
+#students tr:nth-child(odd){background-color: #f2f2f2;}
+
+.but
+{
+    border-radius:45px;
+    background-color: white;
+    color: rebeccapurple;
+    border: 2px solid rebeccapurple;
+    width: 90%;
+    font-size: 15px;
+    padding:7%;
+    font-weight: 550;
+}
+.but:active{
+    background-color: rebeccapurple;
+    color:white;
+}
+
+#students th {
+   display:none;
+}
+#mydiv {
+    font-size: 15px;
+}
+#mydiv a{
+    font-size: 45px;
+}
+#students td:first-child
+{
+    text-align: left;
+}
+
+.check {
+    -webkit-appearance: none; /*hides the default checkbox*/
+
+    position: relative;
+    width:20px;
+    height:20px;
+    transition: 0.10s;
+    background-color: #FE0006;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    border-radius: 50%;
+    outline: none;
+    opacity:0.6;
+}
+
+.check:checked {
+    background-color: #0E9700;
+}
+
+.check:before {
+    content: "□";
+}
+.check:checked:before {
+    content: "□";
+}
+
+.check:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+h1
+{
+    padding-top:70%;
+}
+
+
